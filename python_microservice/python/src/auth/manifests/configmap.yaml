@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: auth-configmap
+data:
+  MYSQL_HOST: auth-mysql
+  MYSQL_USER: auth_user
+  MONGO_USER: auth_user
+  MYSQL_DB: auth
+  MYSQL_PORT: "3306"
+  MYSQL_UNIX_SOCKET: /var/run/mysqld/mysqld.sock
