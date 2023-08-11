@@ -10,6 +10,11 @@ Once you run *kubectl apply -f* on all five manifests folders (one for each micr
 3) Shell into the mongo-db container and create the required databases (mp3s and videos). Then create the user for those databases. Refer to the configmap.yaml and secret.yaml files within /auth/manifests/ to match (or change) the mongoDB username and password.
 4) Go to the configmap.yaml and secret.yaml within notification/manifests/ and change the GMAIL_ADDRESS and GMAIL_PASSWORD variables respectively to your own email account.
 
-If you run into any issues, delete all of the pods and re-deploy.
+Once you complete the tasks above, delete the pods and re-deploy.
+
+## Future Improvements
+
+1) Use kustomize to centralize most the configmap and secret variables (/base).
+2) Use SOPS to encrypt the secret.yaml file.
 
 
