@@ -1,5 +1,5 @@
 # python_microservice_flask
-This is the fully containerized version of the project to this [tutorial](https://www.youtube.com/watch?v=hmkF77F9TLw&t=15441s). Instead of running mongoDB and MySQL on your local machine, the databases have been turned into pods to run alongside the microservices. The original creator is Georgia from Kantan Coding and his original code can be found [here](https://github.com/selikapro/microservices-python).
+This is the fully containerized version of the project in this [tutorial](https://www.youtube.com/watch?v=hmkF77F9TLw&t=15441s). Instead of running mongoDB and MySQL on your local machine, the databases have been turned into pods to run alongside the microservices. The original creator is Georgia from Kantan Coding and his original code can be found [here](https://github.com/selikapro/microservices-python).
 
 ## Prerequisites
 
